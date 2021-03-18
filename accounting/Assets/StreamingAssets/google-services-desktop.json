@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "863023858129",
+    "firebase_url": "https://accounting01-a4ca1.firebaseio.com",
+    "project_id": "accounting01-a4ca1",
+    "storage_bucket": "accounting01-a4ca1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863023858129:android:512d347dee6d21aa",
+        "android_client_info": {
+          "package_name": "com.test0114.accounting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863023858129-sbhug353k38mt511lmjva7s1lv0o1s8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFrYJkIKG6YOgSAF_XVf90Nh3C4_2rj7I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:label="交流板"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Billboard">
+
+    <Button
+        android:id="@+id/btn_comeback"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="664dp"
+        android:background="@android:drawable/ic_menu_revert" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="233dp"
+
+        android:layout_marginBottom="663dp"
+        android:text="交流板"
+        android:textSize="36sp" />
+
+    <ListView
+        android:id="@+id/writingList"
+        android:layout_width="match_parent"
+        android:layout_height="642dp"
+        android:layout_alignParentTop="true"
+
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-33dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginEnd="340dp"
+        android:layout_marginBottom="611dp"
+        android:background="#CDDC39"
+        android:onClick="btn_b0"
+
+
+        android:text="全部"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="255dp"
+        android:layout_marginBottom="611dp"
+        android:background="#CDDC39"
+        android:onClick="btn_b1"
+        android:text="理財規劃"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="611dp"
+        android:background="#CDDC39"
+        android:onClick="btn_b2"
+        android:text="動物農場"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="611dp"
+        android:background="#CDDC39"
+        android:onClick="btn_b3"
+        android:text="閒話家常"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="611dp"
+        android:background="#CDDC39"
+        android:onClick="btn_b4"
+        android:text="其他"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_com"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="65dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="29dp"
+        android:text="✎"
+        android:textAlignment="center"
+
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

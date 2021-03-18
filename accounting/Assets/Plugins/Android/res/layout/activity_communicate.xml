@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".communicate">
+
+    <TextView
+        android:id="@+id/tv_com_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="300dp"
+        android:text="標題"
+        android:textSize="24sp"
+
+        />
+
+    <EditText
+        android:id="@+id/et_com_title"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-300dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="48dp"
+        android:layout_toEndOf="@+id/tv_com_title"
+        android:ems="10"
+        android:inputType="textPersonName"
+      />
+
+    <TextView
+        android:id="@+id/tv_com_billboard"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@+id/tv_com_title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+
+        android:text="留言刊版"
+        android:textSize="24sp"
+
+        />
+
+    <Spinner
+        android:id="@+id/lst_com_billboard"
+        android:layout_width="212dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et_com_title"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="48dp"
+        android:layout_toEndOf="@+id/tv_com_billboard"
+      />
+
+    <EditText
+        android:id="@+id/et_com_aritle"
+        style="@android:style/Widget.EditText"
+        android:layout_width="412dp"
+        android:layout_height="405dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="-10dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="輸入內容"
+        android:hyphenationFrequency="normal"
+        android:inputType="textMultiLine|textPersonName"
+        android:singleLine="false"
+        android:textAlignment="viewStart"
+
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_add_writing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="577dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="86dp"
+        android:onClick="btn_add_writing"
+        android:text="發文"
+
+        android:textSize="18sp" />
+
+</RelativeLayout>

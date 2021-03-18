@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <Button
+        android:id="@+id/btntobudget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:text="預算頁"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+
+        />
+
+    <Button
+        android:id="@+id/btntolabletable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="172dp"
+        android:text="標籤目錄"
+        android:textSize="18sp"
+
+        />
+
+    <Button
+        android:id="@+id/btntograph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="312dp"
+        android:text="圖表"
+        android:textSize="18sp"
+
+        />
+
+    <Button
+        android:id="@+id/btntoinvoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="244dp"
+        android:text="發票"
+        android:textSize="18sp"
+
+        />
+
+    <Button
+        android:id="@+id/btntowriting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="227dp"
+        android:layout_marginTop="306dp"
+        android:layout_marginBottom="24dp"
+        android:text="交流版"
+        android:textSize="18sp"
+
+       />
+
+    <Button
+        android:id="@+id/btntomember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="84dp"
+        android:layout_toEndOf="@+id/btntoaccounting"
+        android:text="會員"
+        android:textSize="18sp"
+
+       />
+
+    <Button
+        android:id="@+id/btntoaccounting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="160dp"
+        android:text="記帳"
+        android:textSize="18sp"
+
+       />
+
+    <TextView
+        android:id="@+id/tv_no_labeltable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="188dp"
+        android:text="標籤修改(考慮中)"
+        android:textAlignment="viewEnd"
+        android:textSize="12sp"
+
+        />
+</RelativeLayout>

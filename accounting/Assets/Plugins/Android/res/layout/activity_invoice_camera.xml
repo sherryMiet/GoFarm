@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InvoiceCamera">
+
+    <me.dm7.barcodescanner.zxing.ZXingScannerView
+        android:id="@+id/zxscan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout_result"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp">
+
+    </me.dm7.barcodescanner.zxing.ZXingScannerView>
+
+    <LinearLayout
+        android:id="@+id/layout_result"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#888888"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_result"
+            android:text="..."
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_again"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="invoice_qrcode"
+            android:text="再次對獎"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_invoice_qrcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="判斷中"
+        android:textAlignment="center"
+        android:textColor="#FFBE00"
+        android:textSize="30sp"
+
+
+        />
+
+
+</RelativeLayout>

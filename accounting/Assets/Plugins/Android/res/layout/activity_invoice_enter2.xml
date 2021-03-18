@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InvoiceEnter2">
+
+    <TextView
+        android:id="@+id/tv_invoice_ans2"
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="562dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="92dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_invoice_enter2"
+        android:layout_width="305dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="55dp"
+        android:text="最終確認對獎"
+        android:textSize="30sp"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_invoice_enter3"
+        android:layout_width="305dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="61dp"
+        android:text=""
+        android:textSize="30sp"
+
+        />
+
+    <EditText
+        android:id="@+id/et_invoice5"
+        android:layout_width="201dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="269dp"
+        android:layout_marginEnd="108dp"
+        android:ems="10"
+        android:hint="請輸入發票前5碼"
+        android:inputType="number"
+        android:maxLength="5"
+        android:textSize="24sp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_invoice5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="373dp"
+        android:layout_marginEnd="163dp"
+        android:background="#FFEB3B"
+        android:onClick="enter5"
+        android:text="兌獎"
+        android:textSize="24sp"
+
+        />
+</RelativeLayout>

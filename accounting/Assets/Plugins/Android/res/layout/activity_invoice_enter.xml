@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InvoiceEnter">
+
+    <Button
+        android:id="@+id/btn_invoice3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_invoice3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="162dp"
+        android:background="#EFF7A8"
+        android:onClick="enter3"
+        android:text="兌獎"
+        android:textSize="18sp"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_invoice_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:text="發票兌獎"
+        android:textSize="30sp"
+
+        />
+
+    <EditText
+        android:id="@+id/et_invoice3"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_invoice_enter"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="130dp"
+        android:digits="1234567890"
+        android:ems="10"
+        android:hint="請輸入發票末3碼"
+        android:inputType="number"
+        android:maxLength="3"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_invoice_ans"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="420dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_comeback"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@android:drawable/ic_menu_revert"
+
+        />
+</RelativeLayout>

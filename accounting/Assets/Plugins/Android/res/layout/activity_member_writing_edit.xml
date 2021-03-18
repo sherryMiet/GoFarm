@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MemberWritingEdit">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="102dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="16dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="文章"
+        android:textAlignment="center"
+        android:textSize="30sp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_comeback"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="336dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/ic_menu_revert"
+
+        />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="88dp"
+        android:text="追蹤"
+        android:textSize="18sp"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="76dp"
+        android:text="使用者名稱"
+        android:textSize="18sp"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_followers_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="112dp"
+        android:text="追蹤數："
+        android:textAlignment="center"
+        android:textSize="18sp"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_followers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="112dp"
+        android:text="TextView"
+        android:textSize="18sp"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_aritle"
+        android:layout_width="376dp"
+        android:layout_height="243dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="35dp"
+
+
+        android:layout_marginBottom="335dp"
+        android:scrollbars="vertical"
+        android:text="內文"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_billboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="文章分類"
+        android:textAlignment="center"
+        android:textSize="20sp"
+
+    />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:text="標題"
+        android:textAlignment="center"
+        android:textSize="24sp"
+
+
+        />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="444dp"
+        android:text="收藏"
+
+
+
+        />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="540dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="留言"
+
+
+
+         />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="444dp"
+        android:text="垃圾桶"
+
+
+
+         />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="536dp"
+        android:text="確認"
+
+
+
+        />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="444dp"
+        android:text="按讚"
+
+
+
+       />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="68dp"
+        android:src="@drawable/user"
+
+        />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+      />
+
+</RelativeLayout>

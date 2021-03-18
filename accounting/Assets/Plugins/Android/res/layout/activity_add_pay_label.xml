@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPayLabel">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="180dp"
+        android:text="新增標籤_支出"
+        android:textSize="30sp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="280dp"
+        android:text="母標籤"
+        android:textSize="24sp"
+
+        />
+
+    <Spinner
+        android:id="@+id/lst_pay_tag"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView9"
+        android:layout_marginStart="-250dp"
+        android:layout_marginTop="95dp"
+        android:layout_toEndOf="@+id/textView10"
+
+        />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="280dp"
+        android:text="子標籤"
+        android:textSize="24sp"
+
+        />
+
+    <EditText
+        android:id="@+id/et_add_label2"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/lst_pay_tag"
+        android:layout_marginStart="-250dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/textView11"
+        android:ems="10"
+        android:hint="早餐"
+        android:inputType="textPersonName"
+
+        />
+
+    <Button
+        android:id="@+id/btn_add_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_add_label2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:onClick="btn_add_pay"
+        android:text="OK"
+        android:background="#FFF072"
+        android:textColor="#666666"
+
+        android:textSize="24sp"
+
+        />
+</RelativeLayout>

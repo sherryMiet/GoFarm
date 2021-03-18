@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddIncLabel">
+
+    <TextView
+        android:id="@+id/tv_addinc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="180dp"
+        android:text="新增標籤_收入"
+        android:textSize="30sp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_addinc"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="280dp"
+        android:text="母標籤"
+        android:textSize="24sp"
+
+        />
+
+    <Spinner
+        android:id="@+id/lst_inc_tag"
+
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_addinc"
+        android:layout_marginStart="-250dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="280dp"
+        android:layout_toEndOf="@+id/textView7"
+
+        />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="280dp"
+        android:text="子標籤"
+        android:textSize="24sp"
+
+         />
+
+    <EditText
+        android:id="@+id/et_add_label"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/lst_inc_tag"
+        android:layout_marginStart="-250dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/textView8"
+        android:ems="10"
+        android:hint="打工"
+        android:inputType="textPersonName"
+
+        />
+
+    <Button
+        android:id="@+id/btn_add_inc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_add_label"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:onClick="btn_add_inc"
+        android:text="OK"
+        android:background="#FFF072"
+        android:textColor="#666666"
+        android:textSize="24sp"
+
+        />
+
+</RelativeLayout>

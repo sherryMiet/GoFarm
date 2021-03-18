@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Accounting"
+    android:background="#F6FFED"
+    >
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/income"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="12dp"
+        android:text="預算"
+        android:textAlignment="center"
+        android:textSize="24sp"
+
+        />
+
+    <TextView
+        android:id="@+id/budget"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="100dp"
+        android:text="0"
+        android:textAlignment="center"
+
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/budget"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="12dp"
+        android:text="收入"
+        android:textAlignment="center"
+
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/income"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="100dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="18sp"
+
+         />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pay"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="209dp"
+        android:layout_marginTop="10dp"
+        android:text="支出"
+        android:textAlignment="center"
+
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/pay"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_toEndOf="@+id/budget"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="18sp"
+
+       />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amount"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="59dp"
+        android:layout_toEndOf="@+id/textView7"
+        android:text="結餘"
+        android:textAlignment="center"
+        android:textSize="24sp"
+
+        />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_toEndOf="@+id/pay"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="18sp"
+
+        />
+
+    <ListView
+        android:id="@+id/listpay"
+        android:layout_width="315dp"
+        android:layout_height="210dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="40dp"
+        android:background="#FFFFFF"
+
+        />
+
+    <TextClock
+        android:id="@+id/TC"
+        android:layout_width="363dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="24dp"
+        android:format12Hour="yyyy/dd/MM"
+        android:textSize="18sp"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      />
+
+    <Button
+        android:id="@+id/btntograph"
+        style="@android:style/Widget.Button"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="305dp"
+        android:background="#FFF3AF"
+        android:fontFamily="sans-serif"
+        android:text="圖表"
+        android:textSize="18sp"
+
+       />
+
+    <Button
+        android:id="@+id/btntolabeltable"
+        style="@android:style/Widget.Button"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="204dp"
+        android:background="#A8FDFF"
+        android:text="標籤"
+        android:textSize="18sp"
+
+         />
+
+    <Button
+        android:id="@+id/btntoinvoice"
+        style="@android:style/Widget.Button"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="100dp"
+        android:background="#E7FFC9"
+        android:text="發票"
+        android:textSize="18sp"
+
+       />
+
+    <Button
+        android:id="@+id/btntocommunice"
+        style="@android:style/Widget.Button"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="1dp"
+        android:background="#C1CEFF"
+        android:text="交流版"
+        android:textSize="18sp"
+
+       />
+
+    <Button
+        android:id="@+id/btntodate"
+        style="@android:style/Widget.Button"
+        android:layout_width="130dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/listpay"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="242dp"
+        android:layout_marginBottom="0dp"
+        android:background="#FFF6AA"
+        android:text="日期"
+        android:textSize="18sp"
+
+        />
+
+    <Button
+        android:id="@+id/btntoenter"
+        style="@android:style/Widget.Button"
+        android:layout_width="154dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/listpay"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="242dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/btntodate"
+        android:background="#CCFF9E"
+        android:text="記帳"
+        android:textSize="18sp"
+
+        />
+
+    <Button
+        android:id="@+id/btntobudget"
+        style="@android:style/Widget.Button"
+        android:layout_width="129dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/listpay"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="242dp"
+        android:layout_marginBottom="0dp"
+        android:background="#00E8CC"
+        android:text="預算輸入"
+        android:textSize="18sp"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_member"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/user" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/img_member"
+        android:text="標題"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_writeMember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/tv_title"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/img_member"
+        android:text="發文者"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tv_billboard"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/tv_writeMember"
+        android:layout_toRightOf="@id/tv_writeMember"
+        android:text="看板分類:"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tv_article"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_writeMember"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/img_member"
+        android:singleLine="true"
+        android:text="內文"
+        android:textSize="16dp" />
+
+</RelativeLayout>

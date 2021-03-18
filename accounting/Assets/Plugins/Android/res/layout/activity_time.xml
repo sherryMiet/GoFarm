@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimeActivity">
+
+    <Button
+        android:id="@+id/btn_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="191dp"
+
+        android:background="#EFF7A8"
+        android:text="設定提醒"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_timeoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="191dp"
+
+        android:background="#EFF7A8"
+        android:text="關提醒"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+
+        android:layout_marginEnd="259dp"
+        android:text="時間提醒"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/et_time"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="114dp"
+
+        android:ems="10"
+        android:hint="08:00:00"
+        android:inputType="none|time" />
+
+    <Button
+        android:id="@+id/btn_timeon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginEnd="191dp"
+
+        android:background="#EFF7A8"
+        android:text="開提醒"
+        android:textSize="18sp" />
+</RelativeLayout>
